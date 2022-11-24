@@ -1,0 +1,238 @@
+body {
+  background-color: white;
+  font-family: georgia;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6600;
+  font-size:larger
+
+}
+
+.catalogo {
+  color: black;
+}
+
+/* Aca Contengo el ancho de las secciones para q no se me achiquen los Bordes */
+section {
+  display: inline-block;
+  width: 100%;
+  color: black;
+}
+
+ul {
+  padding: 0px;
+}
+
+img.logo {
+  height: 50px;
+  width: 50px;
+}
+
+
+.redes {
+  margin: 0;
+}
+
+/* Separa para dar espacio y alineo */
+section.superior {
+  border: solid 0px black;
+  display: flex;
+  align-items: baseline;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Tengo que crear el Div pq sino se separa el contactame de los iconos de las redes */
+div.alineacion {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  align-items: center;
+  padding-top: 4rem, 0, 0, 0;
+  margin: 0;
+}
+
+.contactame {
+  margin-right: 5px;
+  margin-bottom: 0%;
+}
+
+/* Para mantener alineadas las listas y sacar los puntos */
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* Tamaño de redes y margen derecho */
+img.redes-sociales {
+  margin-right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+
+img.facebook {
+  margin-right: 0px;
+}
+
+/* le agrego margen derecho al parrafo contenido en el div asi el contactame que alineado a las redes sociales */
+div p {
+  margin-right: 30px;
+}
+
+
+section.espaciada {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/*nav*/
+ul.navegacion {
+  display: flex;
+  margin: 0%;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+/* Corroucel */
+.paraCarrusel {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Seccion central compartida */
+section.central {
+  display: flex;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  display: inline-block;
+}
+
+.carousel {
+  justify-content: center;
+  max-width: 50%;
+}
+
+img.d-block {
+  max-width: 500px;
+
+}
+
+/* Perternece al Index */
+img.fotooferta {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* Pertenece al index */
+ul.javones {
+  display: flex;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer con alineacion del texto hacia el centro */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  border: 0ch 0px solid black;
+  text-align: center;
+  margin: 0%;
+  padding: 5px;
+}
+
+/* Estas Imagnes perteneces a Cuidados Darios */
+img.imgjabon {
+  width: 200px;
+  height: 200px;
+  margin: 0px 20px
+}
+
+/* Estas Imagnes perteneces a Maquillaje */
+img.imgmaqui {
+  width: 200px;
+  height: 200px;
+  margin: 0px 20px
+}
+
+/* Estas Imagnes pertenecen a Perfumes */
+img.imgperfumes {
+  width: 200px;
+  height: 200px;
+  margin: 0px 20px
+}
+
+.mb-3 {
+  padding: 2px;
+}
+
+/* Tabla */
+.tabla {
+  display: flex;
+  justify-content: center;
+}
+
+/* Aca esta la solucion al boton ver*/
+.oculto {
+  display: none;
+}
+
+.h6 {
+  padding: 25px;
+}
+
+.table {
+  max-width: 50%;
+}
+
+.dejanostusdatos {
+  padding: 25px;
+  margin: 0%;
+}
+
+/* div formulario */
+.formulario {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.bordeDeFormulario {
+  border: solid 1px gray;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 50%;
+  display: block;
+}
+
+.formularioInterno {
+  padding: 5px;
+}
+
+.botones {
+  background-color: #8ecae6;
+  border-radius: 5px;
+}
+
+#email {
+  padding: 5px;
+}
+
+#password {
+  padding: 5px;
+}
